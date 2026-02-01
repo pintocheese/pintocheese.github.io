@@ -10,4 +10,4 @@ layout: single
 
 이미지도 넣을 수 있습니다.
 
-![설명](/assets/images/photo.jpg)
+![설명](/assets/images/IMG_1026.png)
