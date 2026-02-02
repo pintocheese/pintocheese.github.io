@@ -3,6 +3,7 @@ title: PINTO & CHEESE
 description: 핀토와 치즈
 baseurl: ""
 url: "https://pintocheese.github.io"
+email: sweetenertoon@naver.com
 
 plugins:
   - jekyll-feed
