@@ -7,25 +7,24 @@ section.success,
   color: #000000 !important;
 }
 
-
 /* Footer 전체 상하 여백 최소화 */
 .footer-above {
-  padding: 5px 0;
+  padding: 2px 0 5px 0; /* 상단 여백 줄이고, 하단 여백 유지 */
 }
 
-/* 한 줄 중앙 정렬, 아이콘과 글자 수직 중앙 */
-.footer-line {
+/* footer 한 줄 중앙 정렬, 아이콘과 글자 수직 중앙 */
+.footer-above .footer-line {
   display: flex;
-  align-items: center;
+  align-items: center;       /* 글자와 아이콘 수직 중앙 정렬 */
   justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap: wrap;           /* 화면 좁으면 줄 바꿈 */
   gap: 12px;
   margin: 0;
   line-height: 1.2;
 }
 
 /* Instagram 아이콘: 흰색 외곽선, 배경 제거 */
-.btn-social {
+.footer-above .btn-social {
   width: 42px;
   height: 42px;
   border-radius: 50%;
@@ -40,28 +39,28 @@ section.success,
   transition: transform 0.2s;
 }
 
-.btn-social:hover {
+.footer-above .btn-social:hover {
   transform: scale(1.1);
 }
 
 /* 저작권 글자 스타일 */
-.footer-text {
+.footer-above .footer-text {
   font-size: 16px;
   color: #ffffff;
   font-weight: 500;
   margin: 0;
 }
 
-/* 모바일 화면 최적화 */
+/* 모바일 대응 */
 @media (max-width: 576px) {
-  .footer-line {
+  .footer-above .footer-line {
     gap: 8px;
     line-height: 1.1;
   }
-  .footer-text {
+  .footer-above .footer-text {
     font-size: 14px;
   }
-  .btn-social {
+  .footer-above .btn-social {
     width: 36px;
     height: 36px;
     font-size: 18px;
