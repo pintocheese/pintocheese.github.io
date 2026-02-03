@@ -7,3 +7,54 @@ section.success,
   color: #000000 !important;
 }
 
+
+/* Footer 한 줄 중앙 정렬, 모바일 대응 */
+.footer-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; /* 화면 좁으면 줄 바꿈 */
+  gap: 12px;       /* 아이콘과 글자 사이 간격 */
+  margin: 15px 0;
+}
+
+/* Instagram 아이콘 동그라미 */
+.btn-social {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  text-decoration: none;
+  color: #ffffff; /* 아이콘 색상 */
+  background-color: #E1306C; /* 인스타그램 핑크 계열 */
+  transition: transform 0.2s;
+}
+
+.btn-social:hover {
+  transform: scale(1.1); /* 마우스 오버 시 살짝 확대 */
+}
+
+/* 저작권 글자 스타일 */
+.footer-text {
+  font-size: 16px;   /* 기본 글자 크기 */
+  color: #333333;    /* 글자색 */
+  font-weight: 500;
+}
+
+/* 모바일 화면에서 글자 크기와 간격 조정 */
+@media (max-width: 576px) {
+  .footer-line {
+    gap: 8px;
+  }
+  .footer-text {
+    font-size: 14px;
+  }
+  .btn-social {
+    width: 36px;
+    height: 36px;
+    font-size: 18px;
+  }
+}
