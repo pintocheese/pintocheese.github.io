@@ -7,7 +7,6 @@ section.success,
   color: #000000 !important;
 }
 
-
 /* Footer 한 줄 중앙 정렬, 모바일 대응 */
 .footer-line {
   display: flex;
@@ -28,7 +27,7 @@ section.success,
   justify-content: center;
   font-size: 22px;
   text-decoration: none;
-  color: #ffffff; /* 아이콘 색상 */
+  color: #ffffff; /* 아이콘 흰색 */
   background-color: #E1306C; /* 인스타그램 핑크 계열 */
   transition: transform 0.2s;
 }
@@ -39,12 +38,12 @@ section.success,
 
 /* 저작권 글자 스타일 */
 .footer-text {
-  font-size: 16px;   /* 기본 글자 크기 */
-  color: #333333;    /* 글자색 */
+  font-size: 16px;   /* 글자 크기 아이콘과 균형 */
+  color: #ffffff;    /* 흰색으로 변경 */
   font-weight: 500;
 }
 
-/* 모바일 화면에서 글자 크기와 간격 조정 */
+/* 모바일 화면에서 글자 크기와 아이콘 크기 조정 */
 @media (max-width: 576px) {
   .footer-line {
     gap: 8px;
