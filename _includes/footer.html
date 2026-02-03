@@ -3,30 +3,35 @@
   <div class="footer-above">
     <div class="container">
       <div class="row">
+        
+        <!-- 1 -->
         <div class="footer-col col-md-4">
-          <h3>© {{ site.time | date: '%Y' }} MAUVE · PINTO & CHEESE</h3>
           <p>
            © {{ site.time | date: '%Y' }} MAUVE · PINTO & CHEESE
           </p>
         </div>
+
+        <!-- 2 -->
         <div class="footer-col col-md-4">
-          <h3>{{ site.footer.social }}</h3>
           <ul class="list-inline">
-            {% for network in site.social %}
             <li>
-              <a href="{{ network.url }}" class="btn-social btn-outline"><i
-                  class="fa-brands fa-fw fa-{{ network.title }}"></i></a>
+              <a href="https://www.instagram.com/pinchee_official" class="btn-social btn-outline">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
             </li>
-            {% endfor %}
           </ul>
         </div>
+
+        <!-- 3 -->
         <div class="footer-col col-md-4">
-          <h3>{{ site.footer.credits }}</h3>
-          <p>{{ site.credits }}</p>
+          <p>Personal archive</p>
         </div>
+        
       </div>
     </div>
   </div>
+
+  
   <div class="footer-below">
     <div class="container">
       <div class="row">
@@ -36,6 +41,7 @@
       </div>
     </div>
   </div>
+  
 </footer>
 
 <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
