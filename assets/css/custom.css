@@ -6,3 +6,10 @@ section.success,
   background-color: #ffffff !important;
   color: #000000 !important;
 }
+
+@media (min-width: 992px) {
+  #about p {
+    font-size: 17px;
+    line-height: 1.8;
+  }
+}
