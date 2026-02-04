@@ -14,6 +14,10 @@ section.success,
   }
 }
 
+#about {
+  border: none;
+}
+
 section.success#about {
   background-color: #E6E6FA; /* 연보라색 (Lavender) */
   color: #000000;           /* 글자색은 검정 유지 */
