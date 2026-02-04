@@ -8,12 +8,12 @@ section.success,
 }
 
 @media (min-width: 992px) {
-  #about p {
-    font-size: 17px;
-    line-height: 1.8;
+  section.success#about .col-lg-6 p {
+    font-size: 16px;
+    line-height: 1.7;
   }
 }
 
-#about {
-  border: 2px solid red;
+section.success#about {
+  background-color: rgba(255, 0, 0, 0.05);
 }
