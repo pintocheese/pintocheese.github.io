@@ -6,3 +6,7 @@ section.success,
   background-color: #ffffff !important;
   color: #000000 !important;
 }
+
+.footer-below p {
+  font-size: 14px;
+}
