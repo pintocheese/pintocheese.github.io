@@ -13,3 +13,7 @@ section.success,
     line-height: 1.8;
   }
 }
+
+#about {
+  border: 2px solid red;
+}
