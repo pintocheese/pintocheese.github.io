@@ -3,7 +3,7 @@ header.intro,
 header.masthead,
 section.success,
 .bg-primary {
-  background-color: #d399E6 !important;
+  background-color: #ffffff !important;
   color: #000000 !important;
 }
 
@@ -19,6 +19,6 @@ section.success,
 }
 
 section.success#about {
-  background-color: #E6E6FA; /* 연보라색 (Lavender) */
+  background-color: #d399E6; /* 연보라색 (Lavender) */
   color: #000000;           /* 글자색은 검정 유지 */
 }
