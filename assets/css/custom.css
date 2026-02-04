@@ -9,7 +9,7 @@ section.success,
 
 @media (min-width: 992px) {
   section.success#about .col-lg-6 p {
-    font-size: 30px;   /* 필요에 따라 17px 등으로 조절 가능 */
+    font-size: 20px !important;   /* !important 추가 */
     line-height: 1.7;
   }
 }
