@@ -20,6 +20,7 @@ body {
 /* =========================
    한글만 Nanum Gothic 적용
 ========================= */
+.intro-text .skills,
 #about p,
 #about-message,
 .intro-text .skills {
@@ -27,3 +28,6 @@ body {
   line-height: 1.8;    /* 줄 간격 조절 */
   font-weight: 400;     /* 기본 굵기 유지 */
 }
+/* =========================
+   한글은 Nanum Gothic, 영어는 Lato
+========================= */
