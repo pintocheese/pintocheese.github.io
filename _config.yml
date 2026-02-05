@@ -9,7 +9,7 @@ plugins:
   - jekyll-feed
 
 keywords: "pinto, cheese, friendship, purity"
-skills: "이곳은 『핀토와 치즈』 세계관의 경계에 있는 공간입니다.\n소소한 일상 에피소드와\n제작 비하인드, 짧은 아이디어를 기록합니다."
+skills: "\n이곳은 『핀토와 치즈』 세계관의 경계에 있는 공간입니다.\n소소한 일상 에피소드와\n제작 비하인드, 짧은 아이디어를 기록합니다."
 meta_author: MAUVE
 
 # Google webmaster tools
