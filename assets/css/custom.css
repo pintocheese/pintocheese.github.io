@@ -16,10 +16,15 @@ section.success,
   }
 }
 
-/* Pinto Says(About 내용) 글자 크기를 skills와 동일하게 */
+/* skills 글자 볼드 처리 */
+.intro-text .skills {
+  font-weight: 700;   /* 볼드 */
+}
+
+/* Pinto Says 내용 글자 크기를 skills와 동일하게 상속 */
 #about p,
-#about-message {      /* About 안 랜덤 메시지 div */
+#about-message {
   font-size: inherit; /* skills 글자 크기 상속 */
-  line-height: 1.8;  /* 필요하면 줄 간격 조절 */
-  font-weight: 400;   /* 볼드 여부도 skills와 동일 */
+  line-height: 1.8;  /* 필요 시 줄간격 조절 */
+  font-weight: 400;   /* 볼드는 필요에 따라 400 or 700 */
 }
