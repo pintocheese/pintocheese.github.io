@@ -20,9 +20,3 @@ section.success,
   font-family: inherit;
   font-weight: 400;
 }
-
-/* skills와 동일한 글자 크기를 About 본문에 적용 */
-#about p {
-  font-size: inherit;
-  line-height: 2;
-}
