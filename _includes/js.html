@@ -38,8 +38,12 @@
 
     const msg = messages[Math.floor(Math.random() * messages.length)];
     const target = document.getElementById("daily-message");
+
     if (target) {
-      target.textContent = msg;
+      target.innerHTML =
+        "오늘의 메시지:<br>" +
+        msg +
+        "<br><span class='message-note'>(이 메시지는 방문할 때마다 바뀝니다)</span>";
     }
   });
 </script>
