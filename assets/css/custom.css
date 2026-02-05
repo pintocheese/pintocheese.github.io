@@ -20,13 +20,14 @@ body {
 /* =========================
    한글만 Nanum Gothic 적용
 ========================= */
+/* skills / About / Pinto Says 메시지 글자 통일 */
 .intro-text .skills,
 #about p,
-#about-message,
-.intro-text .skills {
-  font-family: "Nanum Gothic", "Lato", sans-serif; /* 한글 Nanum Gothic, 영어 fallback Lato */
-  line-height: 1.8;    /* 줄 간격 조절 */
-  font-weight: 400;     /* 기본 굵기 유지 */
+#about-message {
+  font-family: "Nanum Gothic", "Lato", sans-serif; /* 한글/영문 분리 */
+  font-size: inherit;   /* skills 글자 크기 그대로 상속 */
+  line-height: 1.8;     /* 필요 시 줄 간격 조절 */
+  font-weight: 400;      /* 기본 굵기 유지 */
 }
 /* =========================
    한글은 Nanum Gothic, 영어는 Lato
