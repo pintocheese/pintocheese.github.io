@@ -15,3 +15,8 @@ section.success,
     line-height: 2 !important;
   }
 }
+
+.intro-text #daily-message {
+  font-family: inherit;
+  font-weight: 400;
+}
