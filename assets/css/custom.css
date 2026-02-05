@@ -1,4 +1,6 @@
-/* 전체 배경 기본 */
+/* =========================
+   전체 배경 및 기본 색상
+========================= */
 header,
 header.intro,
 header.masthead,
@@ -8,23 +10,30 @@ section.success,
   color: #000000 !important;
 }
 
-/* skills (홈 화면 문구) 크기 */
-.intro-text .skills {
-  font-size: 24px;   /* 여기서 기준을 정함 */
+/* =========================
+   홈 화면: skills + 랜덤 메시지
+========================= */
+.intro-text .skills,
+.intro-text #daily-message {
+  font-size: 24px !important;
+  line-height: 1.8 !important;
   font-weight: 400;
-  line-height: 1.8;
+  font-family: inherit;
 }
 
-/* About 본문 = skills와 동일 */
+/* =========================
+   About 본문 텍스트
+========================= */
 #about p {
   font-size: 24px !important;
   line-height: 1.8 !important;
   font-weight: 400;
+  font-family: inherit;
 }
 
-/* 랜덤 메시지 */
-.intro-text #daily-message {
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 1.8;
+/* =========================
+   About 영역 정렬 보정 (선택)
+========================= */
+#about {
+  text-align: left;
 }
