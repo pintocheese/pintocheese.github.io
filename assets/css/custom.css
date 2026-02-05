@@ -8,15 +8,6 @@ section.success,
   color: #000000 !important;
 }
 
-/* About 섹션 배경 항상 연보라색, 글자 검정 */
-/*
-  section.success#about {
-  background-color: #d399E6 !important; 
-  color: #000000 !important;            
-}
-*/
-
-
 /* PC 글자 크기 및 줄 간격 */
 @media (min-width: 992px) {
   section.success#about p {
