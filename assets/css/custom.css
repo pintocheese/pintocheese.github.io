@@ -8,23 +8,3 @@ section.success,
   color: #000000 !important;
 }
 
-/* PC 글자 크기 및 줄 간격 */
-@media (min-width: 992px) {
-  section.success#about p {
-    font-size: 20px !important;
-    line-height: 2 !important;
-  }
-}
-
-/* skills 글자 볼드 처리 */
-.intro-text .skills {
-  font-weight: 700 !important; /* !important 추가 */
-}
-
-/* Pinto Says 내용 글자 크기를 skills와 동일하게 상속 */
-#about p,
-#about-message {
-  font-size: inherit; /* skills 글자 크기 상속 */
-  line-height: 1.8;  /* 필요 시 줄간격 조절 */
-  font-weight: inherit;  /* 볼드는 필요에 따라 400 or 700 */
-}
