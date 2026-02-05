@@ -15,3 +15,11 @@ section.success,
     line-height: 2 !important;
   }
 }
+
+/* Pinto Says(About 내용) 글자 크기를 skills와 동일하게 */
+#about p,
+#about-message {      /* About 안 랜덤 메시지 div */
+  font-size: inherit; /* skills 글자 크기 상속 */
+  line-height: 1.8;  /* 필요하면 줄 간격 조절 */
+  font-weight: 400;   /* 볼드 여부도 skills와 동일 */
+}
