@@ -1,6 +1,4 @@
-/* =========================
-   전체 배경 및 기본 색상
-========================= */
+/* 전체 헤더와 주요 섹션 기본 색상 */
 header,
 header.intro,
 header.masthead,
@@ -10,16 +8,21 @@ section.success,
   color: #000000 !important;
 }
 
-/* =========================
-   About 영역 정렬 보정 (선택)
-========================= */
-#about {
-  text-align: left;
+/* PC 글자 크기 및 줄 간격 */
+@media (min-width: 992px) {
+  section.success#about p {
+    font-size: 20px !important;
+    line-height: 2 !important;
+  }
 }
-/* About 본문과 랜덤 메시지를 skills 글자 크기와 동일하게 맞춤 */
-#about p,
+
 .intro-text #daily-message {
-  font-size: inherit;   /* skills 글자 크기를 그대로 상속 */
-  line-height: 1.8;    /* 필요에 따라 줄 간격만 조절 */
-  font-weight: 400;     /* 글자 굵기는 그대로 유지 */
+  font-family: inherit;
+  font-weight: 400;
+}
+
+/* skills와 동일한 글자 크기를 About 본문에 적용 */
+#about p {
+  font-size: inherit;
+  line-height: 2;
 }
