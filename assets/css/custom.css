@@ -1,4 +1,6 @@
-/* 전체 헤더와 주요 섹션 기본 색상 */
+/* =========================
+   전체 헤더 및 주요 섹션 색상
+========================= */
 header,
 header.intro,
 header.masthead,
@@ -8,23 +10,32 @@ section.success,
   color: #000000 !important;
 }
 
-/* 한글/영문 폰트 통일 */
-body,
-.intro-text .skills,
+/* =========================
+   영문과 한글 폰트 구분 적용
+========================= */
+
+/* 기본 폰트: 영문용 */
+body {
+  font-family: "Lato", sans-serif;
+}
+
+/* 한글 전용 폰트 적용 */
+html:lang(ko) body,
 #about p,
-#about-message {
-  font-family: "Noto Sans KR", "Lato", sans-serif;
+#about-message,
+.intro-text .skills {
+  font-family: "Noto Sans KR", sans-serif;
 }
 
 /* skills 글자 볼드 처리 */
 .intro-text .skills {
-  font-weight: 700;   /* 홈 화면 글자 볼드 */
+  font-weight: 700; /* 홈 화면 글자 볼드 */
 }
 
 /* About 본문 + Pinto Says 랜덤 메시지 */
 #about p,
 #about-message {
-  font-size: inherit;  /* skills 글자 크기 상속 */
-  line-height: 1.8;
+  font-size: inherit;   /* skills 글자 크기 상속 */
+  line-height: 1.8;     /* 줄 간격 */
   font-weight: inherit; /* skills 볼드 상속 */
 }
