@@ -8,3 +8,23 @@ section.success,
   color: #000000 !important;
 }
 
+/* 한글/영문 폰트 통일 */
+body,
+.intro-text .skills,
+#about p,
+#about-message {
+  font-family: "Noto Sans KR", "Lato", sans-serif;
+}
+
+/* skills 글자 볼드 처리 */
+.intro-text .skills {
+  font-weight: 700;   /* 홈 화면 글자 볼드 */
+}
+
+/* About 본문 + Pinto Says 랜덤 메시지 */
+#about p,
+#about-message {
+  font-size: inherit;  /* skills 글자 크기 상속 */
+  line-height: 1.8;
+  font-weight: inherit; /* skills 볼드 상속 */
+}
