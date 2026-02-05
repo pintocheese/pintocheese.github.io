@@ -8,26 +8,22 @@ section.success,
   color: #000000 !important;
 }
 
-/* PC 글자 크기 및 줄 간격 */
-@media (min-width: 992px) {
-  section.success#about p {
-    font-size: 20px !important;
-    line-height: 2 !important;
-  }
-}
-
-.intro-text #daily-message {
-  font-family: inherit;
+/* skills 기준 글자 크기 */
+.intro-text .skills {
+  font-size: 20px;
   font-weight: 400;
 }
 
-/* skills와 동일한 글자 크기를 About 본문에 적용 */
+/* About 본문을 skills와 동일하게 */
 #about p {
-  font-size: inherit;
-  line-height: 2;
+  font-size: 20px !important;
+  line-height: 2 !important;
+  font-weight: 400;
 }
 
-/* skills 기준 글자 크기 명시 */
-.intro-text .skills {
+/* 랜덤 메시지(홈) */
+.intro-text #daily-message {
   font-size: 20px;
+  font-weight: 400;
+  line-height: 2;
 }
