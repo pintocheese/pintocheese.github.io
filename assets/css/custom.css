@@ -17,6 +17,10 @@ section.success,
   line-height: 0.8;
 }
 
+.navbar-nav > li > a {
+  font-size: 1.2em;
+}
+
 .text-skill-size {
   font-family: "Lato", "Nanum Gothic", sans-serif;
 }
