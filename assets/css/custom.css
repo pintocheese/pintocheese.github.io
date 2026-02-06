@@ -10,15 +10,14 @@ section.success,
 
 /* 포트폴리오 그림 hover 색상 덮어쓰기 */
 .portfolio-item .caption {
-  background-color: #E0B0FF;  /* 연보라색 */
-  opacity: 0;                  /* 기본 상태에서 안 보이도록 */
-  transition: all 0.3s ease;   /* 부드럽게 나타나도록 */
+  background-color: #E0B0FF !important;  /* 연보라색 */
+  opacity: 0 !important;                /* 기본 상태에서 안 보이도록 */
+  transition: all 0.3s ease !important; /* 부드럽게 나타나도록 */
 }
 
 .portfolio-item:hover .caption {
-  opacity: 1;                  /* 마우스 올리면 색상 보임 */
+  opacity: 1 !important;                /* 마우스 올리면 색상 보임 */
 }
-
 
 
 .skills {
