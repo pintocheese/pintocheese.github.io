@@ -21,3 +21,7 @@ section.success,
 .intro-text {
   text-align: center;      /* 내부 inline-block 요소를 가운데 정렬 */
 }
+
+#about .about-text {
+  text-align: center;
+}
