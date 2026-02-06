@@ -81,7 +81,7 @@ section.success,
    포트폴리오 그림 hover 반투명 색상 변경
    ============================== */
 .portfolio-item .caption {
-  background-color: rgba(224, 176, 255, 0.5) !important; /* 연보라색 반투명 */
+  background-color: rgba(224, 176, 255, 0.7) !important; /* 연보라색 반투명 */
   opacity: 0 !important;                                 /* 기본 상태에서는 안 보이도록 */
   transition: all 0.3s ease !important;                  /* 부드럽게 나타나도록 */
 }
