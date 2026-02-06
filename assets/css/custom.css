@@ -51,3 +51,19 @@ section.success,
   text-align: center;
   font-size: 1.6em;   /* 랜덤 메시지 내용 글자 크기 1.4 */
 }
+
+/* ///모바일 글자 크기/// */
+@media (max-width: 991px) {
+
+  /* title : PINTO & CHEESE */
+  .intro-text .name {
+    font-size: 1.6em;
+  }
+
+  /* about 안의 랜덤 메시지 */
+  #about-message {
+    font-size: 0.8em;
+    text-align: center;
+  }
+
+}
