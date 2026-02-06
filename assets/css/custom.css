@@ -23,14 +23,12 @@ section.success,
   text-align: center;      /* 내부 inline-block 요소를 가운데 정렬 */
 }
 
-/* 모바일 기준에서 제목 글자 강제 통일 */
 @media (max-width: 991px) {
-  .intro-text .name,       /* title */
-  #about h2,               /* About 제목 */
-  .portfolio h2 {          /* Portfolio 제목 */
-    font-family: "Lato", "Nanum Gothic", sans-serif !important;
-    font-size: 20px !important;     /* 모바일 글자 크기 강제 통일 */
-    line-height: 1.8 !important;
-    font-weight: 400 !important;
+  .intro-text .name,   /* title */
+  #about h2,           /* About 제목 */
+  #portfolio h2 {      /* LITTLE DIARY */
+    font-size: inherit;
+    line-height: inherit;
+    font-weight: inherit;
   }
 }
