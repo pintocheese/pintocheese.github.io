@@ -53,6 +53,8 @@ section.success,
 }
 
 /* ///모바일 글자 크기/// */
+
+
 @media (max-width: 991px) {
   header .intro-text .name {
     font-size: 30em !important;  /* 강제로 적용 */
