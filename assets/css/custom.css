@@ -18,7 +18,7 @@ section.success,
 }
 
 .navbar-nav > li > a {
-  font-size: 1em;      /* 화면 제일 위 메뉴바 글자 크기 1.4 */
+  font-size: 1.4em;      /* 화면 제일 위 메뉴바 글자 크기 1.4 */
 }
 }
 
@@ -33,13 +33,13 @@ section.success,
 
 /*  //////////////////  */
 #portfolio h2 {
-  font-size: 1em;   /* Little diary 섹션 글자 크기 3 */
+  font-size: 3em;   /* Little diary 섹션 글자 크기 3 */
 }
 
 
 /*  //////////////////  */
 #about h2 {
-  font-size: 1em;  /* 랜덤 메시지 섹션 글자 크기 3 */
+  font-size: 3em;  /* 랜덤 메시지 섹션 글자 크기 3 */
 }
 
 #about {
@@ -49,5 +49,5 @@ section.success,
 #about-message {
   display: inline-block;
   text-align: center;
-  font-size: 1em;   /* 랜덤 메시지 내용 글자 크기 1.4 */
+  font-size: 1.4em;   /* 랜덤 메시지 내용 글자 크기 1.4 */
 }
