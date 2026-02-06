@@ -25,6 +25,10 @@ section.success,
   text-align: center;      /* 내부 inline-block 요소를 가운데 정렬 */
 }
 
+#portfolio h2 {
+  font-size: 1.2em;
+}
+
 #about {
   text-align: center;
 }
@@ -32,5 +36,5 @@ section.success,
 #about-message {
   display: inline-block;
   text-align: center;
-  font-size: 2.2em;
+  font-size: 1.7em;
 }
