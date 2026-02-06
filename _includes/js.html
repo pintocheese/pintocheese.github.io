@@ -40,12 +40,10 @@
     const target = document.getElementById("about-message");
 
     if (target) {
-     target.innerHTML = msg + "<br>(이 메시지는 랜덤입니다)";
+      target.classList.add("skills", "about-message");
+      target.innerHTML = msg + "<br>(이 메시지는 랜덤입니다)";
     }
   });
-
 </script>
-
-
 
   
