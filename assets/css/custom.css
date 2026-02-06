@@ -17,10 +17,16 @@ section.success,
   line-height: 0.8;
 }
 
+.text-skill-size {
+  font-family: "Lato", "Nanum Gothic", sans-serif;
+}
+
+
 .intro-text {
   text-align: center;      /* 내부 inline-block 요소를 가운데 정렬 */
 }
 
 #about-message {
   text-align: center;
+   font-size: 1em;
 }
