@@ -30,8 +30,16 @@ section.success,
   text-align: center;      /* 내부 inline-block 요소를 가운데 정렬 */
 }
 
+
+/*  //////////////////  */
 #portfolio h2 {
-  font-size: 1em;   /* Little diary 글자 크기 3 */
+  font-size: 1em;   /* Little diary 섹션 글자 크기 3 */
+}
+
+
+/*  //////////////////  */
+#about h2 {
+  font-size: 1em;  /* 랜덤 메시지 섹션 글자 크기 3 */
 }
 
 #about {
@@ -41,5 +49,5 @@ section.success,
 #about-message {
   display: inline-block;
   text-align: center;
-  font-size: 1em;   /* 랜덤메시지 글자 크기 1.4 */
+  font-size: 1em;   /* 랜덤 메시지 내용 글자 크기 1.4 */
 }
