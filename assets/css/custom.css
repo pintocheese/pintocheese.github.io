@@ -55,12 +55,12 @@ section.success,
 /* ///모바일 글자 크기/// */
 @media (max-width: 991px) {
 
-  /* title : PINTO & CHEESE */
-  .intro-text h1 {
-    font-size: 1.25em;
+  /* title : PINTO & CHEESE 글자 사이즈 */
+  header .intro-text .name {
+    font-size: 1.6em;
+    display: block;
   }
 }
-  
 
   /* about 안의 랜덤 메시지 */
   #about-message {
