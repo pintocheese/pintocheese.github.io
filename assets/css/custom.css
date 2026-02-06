@@ -57,12 +57,12 @@ section.success,
 
   /* title : PINTO & CHEESE */
   .intro-text .name {
-    font-size: 1em;
+    font-size: 3.3em;
   }
 
   /* about 안의 랜덤 메시지 */
   #about-message {
-    font-size: 1em;
+    font-size: 1.6em;
     text-align: center;
   }
 
