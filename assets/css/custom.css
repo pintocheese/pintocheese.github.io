@@ -15,7 +15,7 @@ section.success,
   font-size: inherit; /* 원래 크기 유지 */
   display: inline-block;   /* 블록을 텍스트 크기만큼만 차지하게 */
   text-align: left;        /* 글자는 왼쪽 정렬 */
-  line-height: 1.6;        /* 필요 시 줄 간격 조절 */
+  line-height: 1;        /* 필요 시 줄 간격 조절 */
 }
 
 
