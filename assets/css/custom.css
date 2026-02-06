@@ -56,14 +56,14 @@ section.success,
 @media (max-width: 991px) {
   
   header .intro-text .name {
-    font-size: 1.4em;
+    font-size: 3em;
     display: block;
   }
 
 
   /* about 안의 랜덤 메시지 */
   #about-message {
-    font-size: 0.9em;
+    font-size: 1.5em;
     text-align: center;
   }
 
