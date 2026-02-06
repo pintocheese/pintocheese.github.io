@@ -1,6 +1,4 @@
-/* =========================
-   전체 헤더 및 주요 섹션 색상
-========================= */
+
 header,
 header.intro,
 header.masthead,
@@ -10,19 +8,15 @@ section.success,
   color: #000000 !important;
 }
 
-/* =========================
-   skills 글자 (원래 상태)
-========================= */
+
 .intro-text .skills {
-  font-family: "Lato", "Nanum Gothic", sans-serif; /* 폰트 그대로 */
-  font-weight: 400;   /* 원래 볼드 상태 */
-  font-size: inherit; /* 원래 크기 유지 */
+   font-family: "Lato", "Nanum Gothic", sans-serif; /* 폰트 그대로 */
+   font-weight: 400;   /* 원래 볼드 상태 */
+   font-size: inherit; /* 원래 크기 유지 */
+   line-height: 2;
 }
 
-/* =========================
-   랜덤 메시지(Pinto Says / About 메시지)
-   글자 크기 숫자로 지정
-========================= */
+
 #about-message {
   font-family: "Lato", "Nanum Gothic", sans-serif; /* 한글/영문 폰트 */
   font-size: 20px;    /* 숫자로 지정 */
