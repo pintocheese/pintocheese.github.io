@@ -8,11 +8,6 @@ section.success,
   color: #000000 !important;
 }
 
-/* 기본 글자 크기 (모바일 기준) */
-.intro-text .name {       /* title */
-  font-size: 24px;         /* 모바일 기준 */
-}
-
 
 .intro-text .skills {
   font-family: "Lato", "Nanum Gothic", sans-serif; /* 폰트 그대로 */
@@ -21,7 +16,6 @@ section.success,
   display: inline-block;   /* 블록을 텍스트 크기만큼만 차지하게 */
   text-align: left;        /* 글자는 왼쪽 정렬 */
   line-height: 0.7;        /* 필요 시 줄 간격 조절 */
-  font-size: 26px;         /* 모바일 기준 */
 }
 
 
@@ -31,19 +25,10 @@ section.success,
 
 
 /* PC 화면 기준 (992px 이상) */
-@media (min-width: 992px) {
-  .intro-text .name {     /* title */
-    font-size: 36px;       /* PC는 기존 크기 유지 */
-  }
 
-  .intro-text .skills {   /* skills */
-    font-size: 26px;       /* PC에서 키우기 */
-  }
-}
 
 #about-message {
   font-family: "Lato", "Nanum Gothic", sans-serif; /* 한글/영문 폰트 */
-  font-size: 20px;    /* 숫자로 지정 */
   line-height: 1.8;   /* 필요 시 줄 간격 조절 */
   font-weight: 400;    /* 볼드 필요 시 조절 */
 }
