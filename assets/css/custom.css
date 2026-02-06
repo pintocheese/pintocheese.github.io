@@ -21,7 +21,7 @@ section.success,
   display: inline-block;   /* 블록을 텍스트 크기만큼만 차지하게 */
   text-align: left;        /* 글자는 왼쪽 정렬 */
   line-height: 0.7;        /* 필요 시 줄 간격 조절 */
-  font-size: 16px;         /* 모바일 기준 */
+  font-size: 26px;         /* 모바일 기준 */
 }
 
 
