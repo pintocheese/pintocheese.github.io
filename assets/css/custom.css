@@ -8,6 +8,10 @@ section.success,
   color: #000000 !important;
 }
 
+/* 포트폴리오 그림 hover 색상 덮어쓰기 */
+.portfolio-item .caption {
+  background-color: rgba(255, 0, 0, 0.5); /* 원하는 색상으로 변경 */
+}
 
 .skills {
   font-family: "Lato", "Nanum Gothic", sans-serif;
