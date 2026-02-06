@@ -18,7 +18,8 @@ section.success,
 }
 
 .navbar-nav > li > a {
-  font-size: 1.6em;
+  font-size: 1em;      /* 화면 제일 위 메뉴바 글자 크기 1.4 */
+}
 }
 
 .text-skill-size {
@@ -30,7 +31,7 @@ section.success,
 }
 
 #portfolio h2 {
-  font-size: 3.5em;
+  font-size: 1em;   /* Little diary 글자 크기 3 */
 }
 
 #about {
@@ -40,5 +41,5 @@ section.success,
 #about-message {
   display: inline-block;
   text-align: center;
-  font-size: 1.7em;
+  font-size: 1em;   /* 랜덤메시지 글자 크기 1.4 */
 }
