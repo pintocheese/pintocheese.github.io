@@ -57,9 +57,7 @@ section.success,
   
   header .intro-text .name {
     font-size: 3em;
-    display: block;
   }
-
 
   /* about 안의 랜덤 메시지 */
   #about-message {
