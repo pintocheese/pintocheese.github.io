@@ -90,3 +90,6 @@ section.success,
   opacity: 1 !important;                                 /* 마우스 올리면 색상 보임 */
 }
 
+.img-responsive {
+  border: 1px solid #000;
+}
