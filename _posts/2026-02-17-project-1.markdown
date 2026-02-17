@@ -1,9 +1,9 @@
 ---
 layout: default
 modal-id: 1
-date: 2026-02-18
+date: 2026-02-17
 img: coffee.png
 alt: 핀토와 커피
-project-date: 2026-02-18
+project-date: 2026-02-17
 description: 커피 최고
 ---
