@@ -100,8 +100,7 @@ section.success,
 
 .modal-body p {
   text-align: left;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 0 15px;
 }
 
 .modal-body .item-details {
