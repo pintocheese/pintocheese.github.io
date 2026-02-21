@@ -98,21 +98,32 @@ section.success,
   border: 1px solid #000;
 }
 
-.modal-body p,
-.modal-body .item-details {
+
+/* 모달 전체 기준을 가운데로 */
+.modal-body {
+  text-align: center;
+}
+
+/* 실제 내용 박스 */
+.modal-body .diary-content {
+  display: inline-block;
   text-align: left;
-  padding: 0 30px;
+  max-width: 600px;
+  width: 100%;
 }
 
-.modal-body .item-details {
-  font-size: 1.1em;
-  padding-left: 38px; /* date만 살짝 더 안쪽 */
-}
-
-.modal-body .item-details li {
-  margin-left: 0;
-}
-
-.modal-body p {
+/* description */
+.modal-body .diary-content p {
   line-height: 1.7;
+  margin-bottom: 1em;
+}
+
+/* date 영역 */
+.modal-body .diary-content .item-details {
+  font-size: 1.1em;
+  padding-left: 6px; /* description보다 살짝 안쪽 */
+}
+
+.modal-body .diary-content .item-details li {
+  margin-left: 0;
 }
