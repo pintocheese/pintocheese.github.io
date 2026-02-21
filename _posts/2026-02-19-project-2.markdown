@@ -1,9 +1,0 @@
----
-layout: default
-modal-id: 2
-date: 2026-02-19
-img: cabin.png
-alt: 핀토와 커피
-project-date: 2026-02-19
-description: 커피 최고
----
