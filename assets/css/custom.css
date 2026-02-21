@@ -109,7 +109,7 @@ section.success,
   display: inline-block;
   text-align: left;
   max-width: 600px;
-  width: 100%;
+  width: 92%;
 }
 
 /* description */
@@ -121,22 +121,31 @@ section.success,
 /* date 영역 */
 .modal-body .diary-content .item-details {
   font-size: 1.1em;
-  padding-left: 10px;
+  padding-left: 0;
+  margin-left: 0;
 }
 
+/* date 리스트 항목 */
 .modal-body .diary-content .item-details li {
   margin-left: 4px;
 }
 
+/* close 버튼 */
 .modal-body > .btn {
   display: block;
   margin: 30px auto 0 auto;
 }
 
+/* 모바일 */
 @media (max-width: 768px) {
 
   .modal-body .diary-content {
-    width: 92%;
+    width: 100%;
+    max-width: 480px;
+  }
+
+  .modal-body .diary-content p {
+    line-height: 1.8;
   }
 
 }
