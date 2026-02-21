@@ -112,6 +112,11 @@ section.success,
   width: 100%;
 }
 
+.modal-body .item-details {
+  padding-left: 10px;
+  margin-left: 10px;
+}
+
 /* description */
 .modal-body .diary-content p {
   line-height: 1.7;
@@ -121,7 +126,6 @@ section.success,
 /* date 영역 */
 .modal-body .diary-content .item-details {
   font-size: 1.1em;
-  padding-left: 1px; /* description보다 살짝 안쪽 */
 }
 
 .modal-body .diary-content .item-details li {
