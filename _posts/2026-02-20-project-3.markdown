@@ -1,9 +1,0 @@
----
-layout: default
-modal-id: 3
-date: 2026-02-20
-img: test1.png
-alt: 핀토와 하늘
-project-date: 2026-02-20
-description: 커피 최고
----
