@@ -121,13 +121,12 @@ section.success,
 /* date 영역 */
 .modal-body .diary-content .item-details {
   font-size: 1.1em;
-  padding-left: 0;
-  margin-left: 0;
+  padding-left: 0 !important;
+  margin-left: 0 !important;
 }
 
-/* date 리스트 항목 */
 .modal-body .diary-content .item-details li {
-  margin-left: 0;
+  margin-left: 0 !important;
 }
 
 /* close 버튼 */
