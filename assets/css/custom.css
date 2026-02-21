@@ -127,7 +127,7 @@ section.success,
 
 /* date 리스트 항목 */
 .modal-body .diary-content .item-details li {
-  margin-left: 4px;
+  margin-left: 0;
 }
 
 /* close 버튼 */
