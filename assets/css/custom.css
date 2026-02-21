@@ -121,14 +121,13 @@ section.success,
 /* date 영역 */
 .modal-body .diary-content .item-details {
   font-size: 1.1em;
-  padding-left: 4px; /* description보다 살짝 안쪽 */
+  padding-left: 2px; /* description보다 살짝 안쪽 */
 }
 
 .modal-body .diary-content .item-details li {
   margin-left: 0;
 }
 
-.modal-body .btn {
+.modal-body > .btn {
   display: inline-block;
-  margin-top: 20px;
 }
