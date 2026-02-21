@@ -129,5 +129,6 @@ section.success,
 }
 
 .modal-body > .btn {
-  display: inline-block;
+  display: block;
+  margin: 30px auto 0 auto;
 }
