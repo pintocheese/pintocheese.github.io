@@ -127,3 +127,8 @@ section.success,
 .modal-body .diary-content .item-details li {
   margin-left: 0;
 }
+
+.modal-body .btn {
+  display: inline-block;
+  margin-top: 20px;
+}
