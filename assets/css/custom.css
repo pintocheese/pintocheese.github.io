@@ -103,3 +103,7 @@ section.success,
   margin-left: auto;
   margin-right: auto;
 }
+
+.modal-body .item-details {
+  font-size: 1em;
+}
