@@ -112,11 +112,6 @@ section.success,
   width: 100%;
 }
 
-.modal-body .item-details {
-  padding-left: 10px;
-  margin-left: 10px;
-}
-
 /* description */
 .modal-body .diary-content p {
   line-height: 1.7;
@@ -126,10 +121,11 @@ section.success,
 /* date 영역 */
 .modal-body .diary-content .item-details {
   font-size: 1.1em;
+  padding-left: 10px;
 }
 
 .modal-body .diary-content .item-details li {
-  margin-left: 0;
+  margin-left: 4px;
 }
 
 .modal-body > .btn {
@@ -140,11 +136,7 @@ section.success,
 @media (max-width: 768px) {
 
   .modal-body .diary-content {
-    width: 90%;
-  }
-
-  .modal-body .diary-content p {
-    line-height: 1.8;
+    width: 92%;
   }
 
 }
