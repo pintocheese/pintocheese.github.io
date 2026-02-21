@@ -97,3 +97,9 @@ section.success,
 #portfolio .modal-body img {
   border: 1px solid #000;
 }
+
+.modal-body p {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
