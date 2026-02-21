@@ -112,3 +112,7 @@ section.success,
 .modal-body .item-details li {
   margin-left: 0;
 }
+
+.modal-body p {
+  line-height: 1.7;
+}
