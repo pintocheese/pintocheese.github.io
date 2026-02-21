@@ -98,17 +98,14 @@ section.success,
   border: 1px solid #000;
 }
 
-.modal-body p,
 .modal-body .item-details {
   max-width: 600px;
   margin: 0 auto;
   text-align: left;
-}
-
-.modal-body .item-details {
+  padding-left: 8px;
   font-size: 1.1em;
 }
 
 .modal-body .item-details li {
-  margin-left: 8px;
+  margin-left: 0;
 }
