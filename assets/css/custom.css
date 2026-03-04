@@ -137,6 +137,11 @@ section.success,
 
 /* 모바일 */
 @media (max-width: 768px) {
+   header .img-responsive {
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
+  }
 
   .portfolio-modal .container {
     padding-left: 0;
