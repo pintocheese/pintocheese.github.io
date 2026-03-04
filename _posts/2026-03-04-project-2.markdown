@@ -2,7 +2,7 @@
 layout: default
 modal-id: 2
 date: 2026-03-04
-img: IMG_1482.png
+img: pineapple.jpg
 alt: 3월이당
 project-date: 2026-03-04
 description: |
