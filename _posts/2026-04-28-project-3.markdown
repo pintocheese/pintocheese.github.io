@@ -2,7 +2,7 @@
 layout: default
 modal-id: 3
 date: 2026-04-28
-img: IMG_1518.PNG
+img: IMG_1518.png
 alt: 귀여운강아지
 project-date: 2026-04-28
 description: |
