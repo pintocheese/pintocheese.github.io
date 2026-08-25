@@ -1,0 +1,49 @@
+<!-- jQuery Version 1.11.0 -->
+<script src="{{ "js/jquery-1.11.0.js" }}"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="{{ "js/bootstrap.min.js" }}"></script>
+
+<!-- Plugin JavaScript -->
+<script src="{{ "js/jquery.easing.min.js" }}"></script>
+<script src="{{ "js/classie.js" }}"></script>
+<script src="{{ "js/cbpAnimatedHeader.js" }}"></script>
+
+<!-- Contact Form JavaScript -->
+<script src="{{ "js/jqBootstrapValidation.js" }}"></script>
+{% if site.contact == "static" %}
+<script src="{{ "js/contact_me_static.js" }}"></script>
+{% else %}
+<script src="{{ "js/contact_me.js" }}"></script>
+{% endif %}
+
+<!-- Custom Theme JavaScript -->
+<script src="{{ "js/freelancer.js" }}"></script>
+
+{% if site.contact == "disqus" %}
+<!-- Disqus Stuff -->
+{% include js_disqus.html %}
+{% endif %}
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const messages = [
+      "오늘도 반짝이는 하루☆",
+      "좋은 일이 가득한 하루☆",
+      "오늘도 즐거운 하루 보내세요☆",
+      "행복은 작은 것에서부터 시작된대요☆",
+      "행운이 가득한 하루☆",
+      "여유로운 하루☆"
+    ];
+
+    const msg = messages[Math.floor(Math.random() * messages.length)];
+    const target = document.getElementById("about-message");
+
+    if (target) {
+      target.classList.add("skills", "about-message");
+      target.innerHTML = msg + "<br><br>(이 메시지는 랜덤입니다)";
+    }
+  });
+</script>
+
+  
